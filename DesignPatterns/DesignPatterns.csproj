@@ -39,11 +39,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Creational\Class1.cs" />
-    <Compile Include="Creational\IBulletMovementBehavior.cs" />
+    <Compile Include="CreationalPatterns\Prototype\Example.cs" />
+    <Compile Include="CreationalPatterns\Prototype\Gun.cs" />
+    <Compile Include="CreationalPatterns\Prototype\Bullets.cs" />
+    <Compile Include="CreationalPatterns\Prototype\BulletMovements.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="CreationalPatterns\Prototype\readme.md" />
     <None Include="readme.md" />
   </ItemGroup>
   <ItemGroup />
